@@ -10,13 +10,15 @@ body {
   --description: #757575;
   --submain: #fff;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 nav {
   border-bottom: 1px solid #ececec;
 }
 .nav-container {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
   justify-content: center;
 }
 ul {
@@ -26,6 +28,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .nav-logo span:nth-child(1) {
   color: #2196f3;
   font-family: Raleway;
@@ -87,8 +90,6 @@ a {
   background: #2f303a;
 }
 .header-container {
-  width: 1200px;
-  margin: 0 auto;
   display: grid;
   place-items: center;
 }
@@ -247,10 +248,6 @@ a {
 }
 footer {
   background-color: #2f303a;
-}
-.footer-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 .footer-logo {
   padding-top: 60px;
